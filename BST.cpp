@@ -1,7 +1,7 @@
 #include "BST.h"
 using namespace std;
 
-Tnode::Tnode(){}  // Tnode 생성자 정의
+Tnode::Tnode(){}  // Tnode 생성자 정의입니다
 Tnode::Tnode(int k, char v) { key = k; value = v; } 
 // 입력받은 key와 value를 포함한 노드 생성
 Tree::Tree(){}    // Tree 생성자 정의
